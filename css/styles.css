@@ -37,7 +37,6 @@ line-height: 1.17;
 color: var(--accent-color);
 text-decoration: none;
 font-family: 'Raleway';
-font-style: 400;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
@@ -63,6 +62,7 @@ letter-spacing: 0.02em;
 .contacts a {
   color: var(--title-text-color);
   text-decoration: none;
+
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -87,9 +87,16 @@ text-transform: uppercase;
 .hero-button {
   color: var(--second-text-color);
   background-color: var(--accent-color);
+  cursor: pointer;
+  font-family: inherit;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
+}
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--primary-text-color);
+  background-color: var(--second-background-color);
 }
 
 /* переваги */
@@ -129,6 +136,9 @@ color: var(--title-text-color);
   font-size: 16px;
   line-height: 1.19;
 }
+.job-title {
+background-color: var(--primary-background-color);
+}
 .wokers .title {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -143,6 +153,7 @@ color: var(--title-text-color);
 .button {
   color: var(--primary-text-color);
   background-color: var(--second-background-color);
+  cursor: pointer;
   font-family: inherit;
 font-weight: 500;
 font-size: 16px;
@@ -154,6 +165,9 @@ letter-spacing: 0.03em;
 .button:focus {
   color: var(--second-text-color);
   background-color: var(--accent-color);
+}
+.example-job {
+  background-color: var(--primary-background-color);
 }
 .example {
   text-align: center;
@@ -183,8 +197,9 @@ color: var(--title-text-color);
 .footer-address a {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  font-style: normal;
 }
 .footer-address a:hover,
 .footer-address a:focus {
-  color: var(--accent-color)
+  color: var(--accent-color);
 }
