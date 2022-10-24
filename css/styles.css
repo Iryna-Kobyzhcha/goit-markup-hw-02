@@ -188,6 +188,7 @@ color: var(--title-text-color);
 }
 .address {
   color: var(--second-text-color);
+  font-style: normal;
 }
 .footer-address a {
   color: rgba(255, 255, 255, 0.6);
