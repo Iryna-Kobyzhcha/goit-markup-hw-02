@@ -73,14 +73,14 @@ letter-spacing: 0.02em;
 /* герой */
 .hero {
   background-color: var(--accent-background-color);
-  letter-spacing: 0.06em;
   text-align: center;
 }
 .hero-title {
   color: #FFFFFF;
-font-weight: 900;
+  font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
+letter-spacing: 0.06em;
 text-transform: uppercase;
 }
 .hero-button {
@@ -90,6 +90,7 @@ text-transform: uppercase;
   font-family: inherit;
 font-size: 16px;
 line-height: 1.88;
+letter-spacing: 0.06em;
 }
 .hero-button:hover,
 .hero-button:focus {
