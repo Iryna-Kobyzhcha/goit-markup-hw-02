@@ -37,7 +37,6 @@ line-height: 1.17;
 color: var(--accent-color);
 text-decoration: none;
 font-family: 'Raleway';
-font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 }
@@ -89,7 +88,6 @@ text-transform: uppercase;
   background-color: var(--accent-color);
   cursor: pointer;
   font-family: inherit;
-font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
 }
@@ -114,13 +112,11 @@ line-height: 1.88;
 }
 .section-title {
   color: var(--primary-text-color);
-font-weight: 700;
 font-size: 36px;
 text-align: center;
 }
 .benefits .title {
   color: var(--primary-text-color);
-font-weight: 700;
 line-height: 1.14;
 }
 .benefits .text {
@@ -173,7 +169,6 @@ letter-spacing: 0.03em;
   text-align: center;
 }
 .example .title {
-font-weight: 700;
 font-size: 18px;
 line-height: 36px;
 letter-spacing: 2;
