@@ -22,7 +22,6 @@ body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
-font-weight: 400;
 font-size: 14px;
 line-height: 1.17;
   letter-spacing: 0.03em;
@@ -61,7 +60,6 @@ letter-spacing: 0.02em;
 .contacts a {
   color: var(--title-text-color);
   text-decoration: none;
-
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -88,6 +86,7 @@ text-transform: uppercase;
   background-color: var(--accent-color);
   cursor: pointer;
   font-family: inherit;
+  font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.06em;
@@ -118,7 +117,8 @@ text-align: center;
 }
 .benefits .title {
   color: var(--primary-text-color);
-line-height: 1.14;
+  font-size: 14px;
+  line-height: 1.14;
 }
 .benefits .text {
 color: var(--title-text-color);
@@ -139,6 +139,7 @@ background-color: var(--primary-background-color);
 .wokers .title {
   color: var(--primary-text-color);
   font-weight: 500;
+  font-size: 16px;
 }
 .wokers .text {
   color: var(--title-text-color);
@@ -171,8 +172,8 @@ text-align: center;
 }
 .example .title {
 font-size: 18px;
-line-height: 36px;
-letter-spacing: 2;
+line-height: 2;
+letter-spacing: 0.06em;
 }
 .example .text {
 font-size: 16px;
@@ -190,11 +191,13 @@ color: var(--title-text-color);
 .address {
   color: var(--second-text-color);
   font-style: normal;
+  line-height: 1.17;
 }
 .footer-address a {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
+  line-height: 1.17;
 }
 .footer-address a:hover,
 .footer-address a:focus {
